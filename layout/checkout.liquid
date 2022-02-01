@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" dir="{{ direction }}" class="{{ checkout_html_classes }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, user-scalable=0">
+    <meta name="referrer" content="origin">
+
+    <title>{{ page_title }}</title>
+
+    {{ content_for_header }}
+
+    {{ checkout_stylesheets }}
+    {{ checkout_scripts }}
+    
+    <style>
+      .info-box {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 16px;
+        padding: 12px 6px;
+        background-color: rgba(131, 208, 189, 0.048);
+        border: 2px solid rgb(131, 208, 189);
+        border-radius: 6px;
+      }
+      .info-box .info-icon{
+        margin-right: 8px;
+      }
+      .info-box .info-icon img{
+       	max-width: 24px;
+      }
+    </style>
+    
+    
+  </head>
+  <body>
+    {{ skip_to_content_link }}
+
+    <header class="banner" data-header role="banner">
+      <div class="wrap">
+        {{ content_for_logo }}
+      </div>
+    </header>
+
+    {{ order_summary_toggle }}
+    <div class="content" data-content>
+      <div class="wrap">
+        <div class="main">
+          <header class="main__header" role="banner">
+            {{ content_for_logo }}
+            {{ breadcrumb }}
+            {{ alternative_payment_methods }}
+          </header>
+          <main class="main__content" role="main">
+            
+            <!-- custom code start  -->
+            <div class="info-box ">
+              <span class="info-icon"><img width="24" src="https://cdn.shopify.com/s/files/1/0595/9555/4983/files/infoIcon.svg?v=1633428033" alt="House number"></span>
+              <span class="info-message">Achtung! Bitte Strassenname & Hausnummer im Adressenfeld angeben!</span>
+            </div>
+            <!-- custom code ends  -->
+            
+            
+            {{ content_for_layout }}
+          </main>
+          <footer class="main__footer" role="contentinfo">
+            {{ content_for_footer }}
+          </footer>
+        </div>
+        <aside class="sidebar" role="complementary">
+          <div class="sidebar__header">
+            {{ content_for_logo }}
+          </div>
+          <div class="sidebar__content">
+            {{ content_for_order_summary }}
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    {{ tracking_code }}
+
+	<script>
+      (function($){
+        if(window.location.href.indexOf("checkouts") > -1 && $(".order-summary-toggle").length > 0) {
+          $(".order-summary-toggle").click();
+        }
+      })(Checkout.$);
+	</script>
+    
+  </body>
+</html>
