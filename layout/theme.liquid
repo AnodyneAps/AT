@@ -265,6 +265,10 @@
     {% render 'review-head' %}
 
   {% if content_for_header contains 'rio.pwztag.com' %}{% render 'productwiz-rio', product: product, shop: shop, installGuard: true %}{% endif %}
+
+<!-- Start of Tidio script -->
+<script src="//code.tidio.co/y4ggm28hqjtwd5phf0n7jozlnnlz0dl3.js" async></script>
+<!-- End of Tidio script -->
     
 <!-- Start of Sleeknote signup and lead generation tool - www.sleeknote.com -->
 <script id="sleeknoteScript" type="text/javascript">
@@ -278,6 +282,8 @@
 	})();
 </script>
 <!-- End of Sleeknote signup and lead generation tool - www.sleeknote.com -->
+	{% render 'vitals-loader' %}
+
 </head>
 
   <body id="{{ page_title | handle }}"
