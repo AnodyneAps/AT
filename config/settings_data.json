@@ -114,6 +114,7 @@
     "dbtfy_cart_discount_savings_label": "Gesamtersparnis",
     "dbtfy_inactive_tab_message_text_first": "👕 up to 50% off",
     "dbtfy_inactive_tab_message_text_second": "👕 Anodyne discounts",
+    "dbtfy_infinite_scroll_options": "scroll",
     "dbtfy_inventory_quantity_threshold": 20,
     "dbtfy_menu_bar_link_list": "main-menu",
     "dbtfy_menu_bar_mobile": false,
@@ -434,7 +435,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.at\/pages\/rabattcode\"><strong>Sparen Sie bis zu 25% - Klicken Sie hier<\/strong><\/a><\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.at\/pages\/rabattcode\"><strong>Sparen Sie bis zu 20% - Klicken Sie hier<\/strong><\/a><\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
               "announcement_end_text": ""
