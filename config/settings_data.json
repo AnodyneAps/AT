@@ -71,6 +71,7 @@
     "dbtfy_back_in_stock": true,
     "dbtfy_cart_countdown": false,
     "dbtfy_cart_favicon": false,
+    "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
@@ -94,6 +95,7 @@
     "dbtfy_shop_protect": false,
     "dbtfy_skip_cart": false,
     "dbtfy_size_chart": false,
+    "dbtfy_social_discount": false,
     "dbtfy_sticky_addtocart": false,
     "synced_variant_image": false,
     "dbtfy_wish_list": false,
@@ -106,7 +108,8 @@
     "dbtfy_cart_discount_label": "Rabattcode",
     "dbtfy_cart_discount_placeholder": "Geben Sie hier Ihren Rabattcode ein",
     "dbtfy_cart_discount_apply_button_label": "Rabattcode verwenden",
-    "nlify_cart_notification": "Haben Sie in der Größentabelle nachgesehen, ob Sie die richtige Größe haben?",
+    "nlify_cart_notification": "Kaufen Sie mehr, Sparen Sie mehr! Wir bieten einen Mengenrabatt auf die meisten unserer Produkte. Es ist möglich, Mengenpreise mit Rabattcodes zu kombinieren.",
+    "nlify_custom_drawer_icon": "",
     "dbtfy_cart_goal_before_text": "Noch",
     "dbtfy_cart_goal_amount": "59",
     "dbtfy_cart_goal_after_text": "bis gratis Versand",
@@ -152,6 +155,7 @@
     "dbtfy_social_discount_reward_button": "Rabattcode verwenden",
     "dbtfy_social_discount_reward_code": "20GWS15",
     "dbtfy_social_discount_reward_amount": "10",
+    "dbtfy_trust_badge_cart": false,
     "dbtfy_trust_badge_text": "Garantiert sicherer und zuverlässiger Checkout",
     "dbtfy_wish_list_add_text": "Zur Wunschzettel hinzufügen",
     "dbtfy_wish_list_remove_text": "Von Wunschzettel entfernen",
@@ -246,125 +250,136 @@
           "70a58b32-f579-4251-be5b-3453a533049b": {
             "type": "cart-upsell",
             "settings": {
-              "dbtfy_cart_general_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Posture Shirt oder BH!",
-              "dbtfy_cart_general_upsell_product_offer": "waschbeutel-posture-shirt®",
-              "dbtfy_cart_general_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_general_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt sparen Sie 35%. (UVP €59.00)",
+              "dbtfy_cart_general_upsell_product_offer": "back-stretcher",
+              "dbtfy_cart_general_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "2981bc38-0362-45c7-ba73-f403c1d0b980": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines BH!",
+              "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-bh",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "5bb9850e-8f03-4d79-a5a9-0228a1f5474f": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "832791ba-ac14-4f32-af5b-339ad882b5a9": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "9a5c9d3b-b6e1-4414-ae7e-ee0e5241b76e": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "71ef6c12-f9e7-4722-8ad0-6a39582f4b2e": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "dd4b5c13-67a1-432e-8acf-40d83d109839": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "78886c1b-fe01-432e-b3f0-cfc15071ec88": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "82c1b88e-0940-471a-ad23-59531630a5e7": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "bcbe2535-ebf2-488b-8639-46cc72b04836": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "701c545b-4ef5-4465-b861-16bf3adaf0df": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-mint",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "94ea5adc-fc2b-41aa-b93c-5320742af0f3": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "045dc8ed-cd5c-4318-a84d-0e0ff6b2debb": {
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Erhalten Sie einen Geradehalter Basic dazu. Jetzt <strong>sparen Sie 50%<\/strong>. (UVP €39.00)",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
-              "dbtfy_cart_specific_upsell_btn_title": "ja, danke"
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           }
         },
         "block_order": [
           "06f10d7e-727d-4e71-a97d-5d11f70c52d3",
           "70a58b32-f579-4251-be5b-3453a533049b",
+          "2981bc38-0362-45c7-ba73-f403c1d0b980",
           "5bb9850e-8f03-4d79-a5a9-0228a1f5474f",
           "832791ba-ac14-4f32-af5b-339ad882b5a9",
           "9a5c9d3b-b6e1-4414-ae7e-ee0e5241b76e",
@@ -435,7 +450,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.at\/pages\/rabattcode\"><strong>Sparen Sie bis zu 20% - Klicken Sie hier<\/strong><\/a><\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.at\/pages\/rabattcode\"><strong>Erhalten Sie bis zu <\/strong><span style=\"text-decoration:underline\"><strong>-25%<\/strong><\/span><strong> Rabatt. Hier klicken<\/strong><\/a><\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
               "announcement_end_text": ""
