@@ -250,7 +250,7 @@
           "70a58b32-f579-4251-be5b-3453a533049b": {
             "type": "cart-upsell",
             "settings": {
-              "dbtfy_cart_general_upsell_title": "Erhalten Sie einen Back Stretcher dazu. Jetzt sparen Sie 35%. (UVP €59.00)",
+              "dbtfy_cart_general_upsell_title": "Deal der Woche! Erhalten Sie einen Back Stretcher dazu. Jetzt sparen Sie 35%. (UVP €59.00)",
               "dbtfy_cart_general_upsell_product_offer": "back-stretcher",
               "dbtfy_cart_general_upsell_btn_title": "Ja, danke"
             }
@@ -374,6 +374,26 @@
               "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
+          },
+          "20a7b637-d357-4329-b164-96f779836552": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-blau",
+              "dbtfy_cart_specific_upsell_product_offer": "",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "28de2d89-ccbc-43ef-bce8-4fa5def4f002": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-blau",
+              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
           }
         },
         "block_order": [
@@ -390,7 +410,9 @@
           "bcbe2535-ebf2-488b-8639-46cc72b04836",
           "701c545b-4ef5-4465-b861-16bf3adaf0df",
           "94ea5adc-fc2b-41aa-b93c-5320742af0f3",
-          "045dc8ed-cd5c-4318-a84d-0e0ff6b2debb"
+          "045dc8ed-cd5c-4318-a84d-0e0ff6b2debb",
+          "20a7b637-d357-4329-b164-96f779836552",
+          "28de2d89-ccbc-43ef-bce8-4fa5def4f002"
         ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
@@ -450,8 +472,8 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.at\/pages\/rabattcode\"><strong>Erhalten Sie bis zu <\/strong><span style=\"text-decoration:underline\"><strong>-25%<\/strong><\/span><strong> Rabatt. Hier klicken<\/strong><\/a><\/p>",
-              "announcement_counter": "",
+              "announcement_text": "<p>Deal der Woche endet in: <\/p>",
+              "announcement_counter": "Mar 7, 2022 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": ""
             }
