@@ -69,7 +69,7 @@
     "base_font_size": 14,
     "custom_quantity_breaks": true,
     "dbtfy_back_in_stock": true,
-    "dbtfy_cart_countdown": false,
+    "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
     "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
@@ -105,6 +105,11 @@
     "dbtfy_back_in_stock_success": "<p>Wir benachrichtigen Sie, sobald das Produkt auf Lager ist.<\/p>",
     "dbtfy_back_in_stock_body_prefix": "Benachrichtigung erhalten, sobald",
     "dbtfy_back_in_stock_body_suffix": "auf Lager ist.",
+    "dbtfy_cart_countdown_time_mins": 20,
+    "dbtfy_cart_countdown_prefix": "Ihre Produkte sind für",
+    "dbtfy_cart_countdown_suffix": "reserviert. Bestellen Sie jetzt!",
+    "dbtfy_cart_countdown_icon_over": "update",
+    "dbtfy_cart_countdown_msg_over": "Bestellen Sie bevor Ihre Produkte ausverkauft sind",
     "dbtfy_cart_discount_label": "Rabattcode",
     "dbtfy_cart_discount_placeholder": "Geben Sie hier Ihren Rabattcode ein",
     "dbtfy_cart_discount_apply_button_label": "Rabattcode verwenden",
@@ -240,15 +245,15 @@
         "blocks": {
           "06f10d7e-727d-4e71-a97d-5d11f70c52d3": {
             "type": "cart-upsell",
-            "disabled": true,
             "settings": {
-              "dbtfy_cart_general_upsell_title": "Neuheit ! Kaufen Sie eine tolle Geschenkbox",
+              "dbtfy_cart_general_upsell_title": "Neuheit! Kaufen Sie eine tolle Geschenkbox. Nur für Posture Shirt™ oder Anodyne® BH",
               "dbtfy_cart_general_upsell_product_offer": "30x21x7cm",
-              "dbtfy_cart_general_upsell_btn_title": "Hinzufügen"
+              "dbtfy_cart_general_upsell_btn_title": "Ja, danke"
             }
           },
           "70a58b32-f579-4251-be5b-3453a533049b": {
             "type": "cart-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_general_upsell_title": "Deal der Woche! Erhalten Sie einen Back Stretcher dazu. Jetzt sparen Sie 35%. (UVP €59.00)",
               "dbtfy_cart_general_upsell_product_offer": "back-stretcher",
@@ -259,9 +264,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines BH!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-bh",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -269,9 +274,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -279,9 +284,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -289,9 +294,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -299,9 +304,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -309,9 +314,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -319,9 +324,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-schwarz",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -329,9 +334,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -339,9 +344,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-weiss",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -349,9 +354,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-mint",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -359,9 +364,9 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
@@ -369,18 +374,19 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
           },
           "20a7b637-d357-4329-b164-96f779836552": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
-              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-blau",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_product_trigger": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_product_offer": "",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
             }
@@ -389,10 +395,20 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "Füge einen Waschbeutel zum Kauf hinzu und verlängere die Lebensdauer deines Shirt!",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-blau",
-              "dbtfy_cart_specific_upsell_product_offer": "waschbeutel-posture-shirt®",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
+            }
+          },
+          "a817fe75-074d-40a9-b1a2-e64c1f93c84a": {
+            "type": "cart-item-upsell",
+            "settings": {
+              "dbtfy_cart_upsell_replace_item": "add",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-blau",
+              "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
+              "dbtfy_cart_specific_upsell_btn_title": "Ja danke"
             }
           }
         },
@@ -412,7 +428,8 @@
           "94ea5adc-fc2b-41aa-b93c-5320742af0f3",
           "045dc8ed-cd5c-4318-a84d-0e0ff6b2debb",
           "20a7b637-d357-4329-b164-96f779836552",
-          "28de2d89-ccbc-43ef-bce8-4fa5def4f002"
+          "28de2d89-ccbc-43ef-bce8-4fa5def4f002",
+          "a817fe75-074d-40a9-b1a2-e64c1f93c84a"
         ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
@@ -473,7 +490,7 @@
             "type": "message",
             "settings": {
               "announcement_text": "<p>Deal der Woche endet in: <\/p>",
-              "announcement_counter": "Mar 7, 2022 23:59:59",
+              "announcement_counter": "Mar 20, 2022 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": ""
             }
@@ -884,7 +901,7 @@
               "title": "Schnelle Lieferung",
               "description": "GRATIS Versand für Einkaufe über 59,00 €",
               "icon": "shopify:\/\/shop_images\/Truck.png",
-              "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
+              "uspLinkUrl": "shopify:\/\/pages\/versand-und-lieferung"
             }
           },
           "1630063768bdfa2f5f-1": {
@@ -893,7 +910,7 @@
               "title": "Kostenlose Rückgabe",
               "description": "Der Rückversand bei Anodyne® ist kostenfrei",
               "icon": "shopify:\/\/shop_images\/Returns.png",
-              "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
+              "uspLinkUrl": "shopify:\/\/pages\/versand-und-lieferung"
             }
           },
           "66c69b66-4ba2-424e-a46c-68c81d83d5c4": {
@@ -1523,7 +1540,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Ich habe das falsche Produkt erhalten. Was mache ich?",
-              "text": "<p>Das Versandteam von Anodyne verpackt jährlich Tausende von Produkten. Leider kann es vorkommen, dass Sie ein falsches Produkt erhalten, z. B. ein Pullover-Shirt, selbst wenn Sie eines mit Reißverschluss bestellt haben. Das tut uns natürlich sehr leid. Fehler wie diese kosten uns Geld, da wir für alle Sendungen bezahlen müssen. Daher tun wir unser Bestes, um diese Fehler zu vermeiden. Wenn Sie zu den Unglücklichen gehören, denen dies passiert ist, verwenden Sie bitte das in Ihrem Paket beiliegenden Retourlabel oder laden Sie hier ein kostenfreies<br\/><br\/>Senden Sie das Produkt zusammen mit dem Rücksendeformular mit Ihrem Namen, der Bestellnummer und dem Umtauschgrund (und geben Sie einfach an, dass wir es versandt haben Ihnen das falsche Produkt) und wir werden es priorisieren, dass Ihnen ein neues Produkt ohne Verzögerung zugestellt wird.<\/p>"
+              "text": "<p>Das Versandteam von Anodyne verpackt jährlich Tausende von Produkten. Leider kann es vorkommen, dass Sie ein falsches Produkt erhalten, z. B. ein Pullover-Shirt, selbst wenn Sie eines mit Reißverschluss bestellt haben. Das tut uns natürlich sehr leid. Fehler wie diese kosten uns Geld, da wir für alle Sendungen bezahlen müssen. Daher tun wir unser Bestes, um diese Fehler zu vermeiden. Bitte nutzen Sie unser <a href=\"\/pages\/retourportal\" title=\"Umtausch- und Retourportal\">Retourportal<\/a>, um diese unglückliche Feder zu melden. <\/p>"
             }
           },
           "92421958-58c0-4bfa-aaa9-af887f44fd85": {
@@ -1575,7 +1592,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Muss ich bezahlen, wenn ich innerhalb meiner 30-tägigen Testphase etwas tauschen möchte?",
-              "text": "<p>Der Rückversand Ihres Produktes ist kostenlos. Haben Sie Versand mit DHL gewählt, liegt dem Paket ein kostenfreies Retourlabel bei. In den meisten Fällen werden nur Umtausch in eine andere Größe für dasselbe Produkt vorgenommen und es sind keine Rückerstattungen oder zusätzliche Zahlungen erforderlich. Wenn Sie gegen ein billigeres Produkt tauschen, erstatten wir Ihnen die Differenz. Wenn Sie Ihr Produkt gegen ein teureres Produkt eintauschen möchten, müssen Sie Ihr aktuelles Produkt für eine Rückerstattung zurücksenden. Dann können Sie das gewünschte Produkt auf unserer Website bestellen.<\/p>"
+              "text": "<p>Der Rückversand Ihres Produktes ist kostenlos. Bitte nutzen Sie unser <a href=\"\/pages\/retourportal\" title=\"Umtausch- und Retourportal\">Retourportal<\/a>, um diese unglückliche Feder zu melden. In den meisten Fällen werden nur Umtausch in eine andere Größe für dasselbe Produkt vorgenommen und es sind keine Rückerstattungen oder zusätzliche Zahlungen erforderlich. Wenn Sie gegen ein billigeres Produkt tauschen, erstatten wir Ihnen die Differenz. Wenn Sie Ihr Produkt gegen ein teureres Produkt eintauschen möchten, müssen Sie Ihr aktuelles Produkt für eine Rückerstattung zurücksenden. Dann können Sie das gewünschte Produkt auf unserer Website bestellen.<\/p>"
             }
           },
           "c014a4e2-1ffc-4f54-bb11-44c8e1fbb12a": {
@@ -1584,7 +1601,7 @@
               "dbtfy_faq_page_open": false,
               "dbtfy_faq_page_icon": "",
               "title": "Wie kann ich meine Bestellung zurücksenden?",
-              "text": "<p>Füllen Sie auf dem Rücksendeformular Ihren Namen, die Bestellnummer und die Informationen aus, dass Sie das Produkt zur Erstattung zurücksenden oder das Produkt gegen eine andere Größe oder ein anderes Produkt austauschen möchten. <br\/><br\/>Haben Sie Versand mit DHL gewählt, liegt dem Paket ein kostenfreies Retourlabel bei.<\/p>"
+              "text": "<p>Bitte nutzen Sie unser <a href=\"\/pages\/retourportal\" title=\"Umtausch- und Retourportal\">Retourportal<\/a>, um diese unglückliche Feder zu melden. <\/p>"
             }
           },
           "527508ee-3b97-40be-bceb-5acc82d4fa51": {
