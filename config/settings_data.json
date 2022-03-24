@@ -78,7 +78,7 @@
     "dbtfy_back_in_stock": true,
     "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
-    "dbtfy_cart_discount": true,
+    "dbtfy_cart_discount": false,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
@@ -275,7 +275,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "anodyne-bh",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -285,7 +285,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-schwarz",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -295,7 +295,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-schwarz",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -305,7 +305,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-weiss",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -315,7 +315,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-weiss",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -325,7 +325,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-schwarz",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -335,7 +335,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-schwarz",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -345,7 +345,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-weiss",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -355,7 +355,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-zipper-weiss",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -365,7 +365,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-mint",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -375,7 +375,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-nude",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -385,7 +385,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-zipper-nude",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -406,7 +406,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "womens-posture-shirt-blau",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja, danke"
@@ -416,7 +416,7 @@
             "type": "cart-item-upsell",
             "settings": {
               "dbtfy_cart_upsell_replace_item": "add",
-              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 36%. (UVP € 39,00)",
+              "dbtfy_cart_specific_upsell_title": "<strong>Deal Der Woche!<\/strong> Erhalten Sie einen Geradehalter dazu. Jetzt sparen Sie 50%. (UVP € 39,00)",
               "dbtfy_cart_specific_upsell_product_trigger": "mens-posture-shirt-blau",
               "dbtfy_cart_specific_upsell_product_offer": "geradehalter-basic-1",
               "dbtfy_cart_specific_upsell_btn_title": "Ja danke"
@@ -500,7 +500,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.at\/pages\/rabattcode\">Erhalten Sie einen Rabattcode. <span style=\"text-decoration:underline\"><strong>Hier Klicken<\/strong><\/span><\/a><\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/collections\/alle-produkte\" title=\"https:\/\/www.anodyne.at\/collections\/alle-produkte\"><strong>Frühlingsverkauf!<\/strong> Sparen Sie bis zu -40% <\/a><\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
               "announcement_end_text": ""
@@ -1037,7 +1037,7 @@
               "icon": "format_quote",
               "quote": "<p><em>Das Shirt sitzt gut und man merkt die Unterstützung durch das Material.<\/em><\/p>",
               "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_d51d08de-43f4-4aac-b82f-36f72e72f599.png",
-              "quotes_link": "https:\/\/www.trustedshops.at\/bewertung\/info_X27D45029977FCDFA123BE1480890C651.html",
+              "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
               "author": "Angela E."
             }
           },
@@ -1048,7 +1048,7 @@
               "icon": "format_quote",
               "quote": "<p><em>Bin in jeglicher Hinsicht zufrieden. Schnelle Lieferung und prima Qualität<\/em><\/p>",
               "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_d51d08de-43f4-4aac-b82f-36f72e72f599.png",
-              "quotes_link": "https:\/\/www.trustedshops.at\/bewertung\/info_X27D45029977FCDFA123BE1480890C651.html",
+              "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
               "author": "Thomas S."
             }
           },
@@ -1059,7 +1059,7 @@
               "icon": "format_quote",
               "quote": "<p><em>Auch bei dieser Bestellung ist alles ganz zu meinen Wünschen verlaufen.<\/em><\/p>",
               "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_d51d08de-43f4-4aac-b82f-36f72e72f599.png",
-              "quotes_link": "https:\/\/www.trustedshops.at\/bewertung\/info_X27D45029977FCDFA123BE1480890C651.html",
+              "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
               "author": "Norbert B."
             }
           }
@@ -1223,8 +1223,10 @@
           "product_title_large": false,
           "show_product_tags": false,
           "show_sharing_icons": true,
-          "product_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_DE_48eb6480-ac6b-40c4-b90b-81414f72b0df.jpg",
-          "product_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_DE_b3f2e926-773c-42e8-9d25-4f8b908a8175.jpg",
+          "product_banner": "shopify:\/\/shop_images\/banner-dde.png",
+          "product_banner_mobile": "shopify:\/\/shop_images\/banner-mde.png",
+          "product_banner_postureshirt": "shopify:\/\/shop_images\/banner-dde.png",
+          "product_banner_mobile_postureshirt": "shopify:\/\/shop_images\/banner-mde.png",
           "show_product_collections": false,
           "enable_image_zoom": true,
           "enable_video_looping": true,
