@@ -78,7 +78,7 @@
     "dbtfy_back_in_stock": true,
     "dbtfy_cart_countdown": true,
     "dbtfy_cart_favicon": false,
-    "dbtfy_cart_discount": false,
+    "dbtfy_cart_discount": true,
     "dbtfy_collection_addtocart": false,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
@@ -256,6 +256,7 @@
         "blocks": {
           "06f10d7e-727d-4e71-a97d-5d11f70c52d3": {
             "type": "cart-upsell",
+            "disabled": true,
             "settings": {
               "dbtfy_cart_general_upsell_title": "Neuheit! Kaufen Sie eine tolle Geschenkbox. Nur für Posture Shirt™ oder Anodyne® BH",
               "dbtfy_cart_general_upsell_product_offer": "30x21x7cm",
@@ -500,7 +501,7 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/collections\/alle-produkte\" title=\"https:\/\/www.anodyne.at\/collections\/alle-produkte\"><strong>Frühlingsverkauf!<\/strong> Sparen Sie bis zu -40% <\/a><\/p>",
+              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.at\/pages\/rabattcode\">Erhalten Sie einen Rabattcode. <span style=\"text-decoration:underline\"><strong>Hier Klicken<\/strong><\/span><\/a><\/p>",
               "announcement_counter": "",
               "announcemen_link": "",
               "announcement_end_text": ""
@@ -1189,6 +1190,8 @@
       "collection-template": {
         "type": "collection-template",
         "settings": {
+          "collection_stars": "shopify:\/\/shop_images\/tp_de.jpg",
+          "stars_url": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
           "collection_tags_enable": false,
           "collection_tags_count": false,
           "collection_multiple_tags_filtering_enable": false,
@@ -1196,11 +1199,7 @@
           "tag_selector": "button",
           "rows": "4",
           "desktop_grid": "4",
-          "mobile_grid": "2",
-          "collection_banner": "shopify:\/\/shop_images\/December-offers_DE.jpg",
-          "collection_banner_mobile": "shopify:\/\/shop_images\/December-offers_mobile_DE.jpg",
-          "collection_banner_postureshirt": "shopify:\/\/shop_images\/Desktop_DE_b2a711f3-cc24-4ae5-95c9-80527d82ad87.jpg",
-          "collection_banner_mobile_postureshirt": "shopify:\/\/shop_images\/Mobile_DE_00c46317-e2d5-47d6-b3c4-ff333f74e4a2.jpg"
+          "mobile_grid": "2"
         }
       },
       "dbtfy-collection-filters": {
