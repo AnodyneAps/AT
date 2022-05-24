@@ -27,6 +27,7 @@
     "page_wrapper": "1248",
     "payment_icon_size": 24,
     "sale_type": "percentage",
+    "browsing_link": "shopify:\/\/collections\/alle-produkte",
     "zindex_drawer": "999",
     "cart_notes_enable": false,
     "color_announcement_bg": "#ff891d",
@@ -106,7 +107,7 @@
     "dbtfy_sticky_addtocart": false,
     "synced_variant_image": false,
     "dbtfy_wish_list": false,
-    "dbtfy_agree_text": "<p>Ich akzeptiere die Geschäftsbedingungen<\/p>",
+    "dbtfy_agree_text": "<p>Ich akzeptiere die <a href=\"https:\/\/www.anodyne.at\/policies\/terms-of-service\" title=\"https:\/\/www.anodyne.at\/policies\/terms-of-service\">Geschäftsbedingungen<\/a><\/p>",
     "dbtfy_agree_warning_text": "<p>Sie müssen die Geschäftsbedingungen akzeptieren<\/p>",
     "dbtfy_agree_order_title": "Ich akzeptiere die Geschäftsbedingungen",
     "dbtfy_agree_order_yes_answer": "Ja",
@@ -501,15 +502,49 @@
           "announcement-0": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p><a href=\"https:\/\/www.anodyne.at\/pages\/rabattcode\" title=\"https:\/\/www.anodyne.at\/pages\/rabattcode\">Erhalten Sie einen Rabattcode. <span style=\"text-decoration:underline\"><strong>Hier Klicken<\/strong><\/span><\/a><\/p>",
+              "announcement_text": "<p>Schneller Lieferung<\/p>",
+              "icon_selector": "truck",
               "announcement_counter": "",
+              "announcemen_link": "shopify:\/\/collections\/all",
+              "announcement_end_text": ""
+            }
+          },
+          "0bf60ae2-9dce-4c4f-82ad-d306a4cd91c6": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>Kostenlose Rückgabe<\/p>",
+              "icon_selector": "return",
+              "announcement_counter": "Nov 20, 2021 23:59:59",
+              "announcemen_link": "",
+              "announcement_end_text": ""
+            }
+          },
+          "5b454a19-3f7b-49d9-8ab6-fa18042d2578": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>30 Tage Rückgaberecht<\/p>",
+              "icon_selector": "smily",
+              "announcement_counter": "Nov 20, 2021 23:59:59",
+              "announcemen_link": "",
+              "announcement_end_text": ""
+            }
+          },
+          "004912e8-1015-40be-87f2-b0fa9cf8e796": {
+            "type": "message",
+            "settings": {
+              "announcement_text": "<p>GRATIS Versand für Einkaufe über 59,00 €<\/p>",
+              "icon_selector": "checkmark",
+              "announcement_counter": "Nov 20, 2021 23:59:59",
               "announcemen_link": "",
               "announcement_end_text": ""
             }
           }
         },
         "block_order": [
-          "announcement-0"
+          "announcement-0",
+          "0bf60ae2-9dce-4c4f-82ad-d306a4cd91c6",
+          "5b454a19-3f7b-49d9-8ab6-fa18042d2578",
+          "004912e8-1015-40be-87f2-b0fa9cf8e796"
         ],
         "settings": {
           "show_announcement": true,
@@ -895,7 +930,7 @@
           "image_position": "center center",
           "video_title": "<span class=\"first\">Anodyne®<\/span>",
           "text_size": "medium",
-          "text_description": "<p><strong>Verbessere jetzt die Haltung und lindere Schmerzen<\/strong><\/p>",
+          "text_description": "<p><strong>FRÜHLINGSVERKAUF! <\/strong>Bis zu <span style=\"text-decoration:underline\">-50%<\/span> Rabatt<\/p>",
           "text_description_size": "medium",
           "button_label": "Frauen",
           "button_link": "shopify:\/\/collections\/frauen",
