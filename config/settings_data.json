@@ -532,7 +532,7 @@
           "004912e8-1015-40be-87f2-b0fa9cf8e796": {
             "type": "message",
             "settings": {
-              "announcement_text": "<p>GRATIS Versand für Einkaufe über 59,00 €<\/p>",
+              "announcement_text": "<p>Gratis Versand für Einkaufe über 59,00 €<\/p>",
               "icon_selector": "checkmark",
               "announcement_counter": "Nov 20, 2021 23:59:59",
               "announcemen_link": "",
@@ -1108,7 +1108,6 @@
         "settings": {
           "show_on_desktop": true,
           "show_on_mobile": true,
-          "trustpilot_imagetitle": "shopify:\/\/shop_images\/Trustedshops_logo.png",
           "title": "",
           "subtitle": "",
           "section_style": "section-blank",
