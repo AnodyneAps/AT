@@ -713,7 +713,9 @@
           "show_payment_icons": false,
           "show_shopify_footer": false,
           "show_debutify_footer": false,
-          "custom_credential": "<p>Anodyne, P.O. Pedersens Vej 9, 8200 Aarhus N, Dänemark. USt-IdNr: DK37167053.<\/p>"
+          "custom_credential": "<p>Anodyne, P.O. Pedersens Vej 9, 8200 Aarhus N, Dänemark. USt-IdNr: DK37167053.<\/p>",
+          "bottom_counter_text": "Wir versenden Ihr Paket in",
+          "show_bottom_counter": true
         }
       },
       "product-template": {
@@ -1277,7 +1279,9 @@
           "dbtfy_product_description_position": "separate_section",
           "description_style": "section-border",
           "text_alignment": "text-center",
-          "text_alignment_mobile": "small--text-center"
+          "text_alignment_mobile": "small--text-center",
+          "instead-of-counter-text": "<p>Möchten Sie <strong>10% <\/strong>Extra-Rabatt? <strong>Klicken Sie hier<\/strong><\/p>",
+          "instead-of-counter-link": "shopify:\/\/pages\/rabattcode"
         }
       },
       "product-cards": {
